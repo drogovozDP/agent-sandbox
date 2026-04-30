@@ -566,3 +566,5 @@ _Appears in:_
 | --- | --- |
 | `none` | WarmPoolPolicyNone indicates that no warm pool should be used.<br />A fresh sandbox will always be created.<br /> |
 | `default` | WarmPoolPolicyDefault indicates the default behavior: select from all<br />available warm pools that match the template. This is the default behavior<br />if warmpool is not specified.<br /> |
+
+
