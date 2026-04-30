@@ -40,7 +40,7 @@ jobs:
       - name: Verify no uncommitted changes
         run: |
           # Stage the file so git diff can check it
-          git add ./docs/api.yaml
+          git add ./docs/api.md
 
           # Check if there are any differences
           if ! git diff --staged --exit-code; then
