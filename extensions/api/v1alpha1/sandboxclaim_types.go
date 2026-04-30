@@ -73,7 +73,7 @@ const (
 
 // Lifecycle defines the lifecycle management for the SandboxClaim.
 type Lifecycle struct {
-	// shutdownTime is the absolute time when the SandboxClaim expires.
+	// shutdownTime is the absolute time when the SandboxClaim expires TEST CHANGE.
 	// This time governs the lifecycle of the claim. It is not propagated to the
 	// underlying Sandbox. Instead, the SandboxClaim controller enforces this
 	// expiration by deleting the Sandbox resources when the time is reached.
