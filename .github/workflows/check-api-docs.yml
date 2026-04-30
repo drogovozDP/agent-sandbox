@@ -40,7 +40,7 @@ jobs:
       - name: Verify no uncommitted changes
         run: |
           # Stage the file so git diff can check it
-          git add sandbox-api-reference.md
+          git add ./docs/crd-ref-docs.yaml
 
           # Check if there are any differences
           if ! git diff --staged --exit-code; then
