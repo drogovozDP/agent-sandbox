@@ -155,7 +155,7 @@ type Lifecycle struct {
 	// shutdownTime is the absolute time when the sandbox expires.
 	// +kubebuilder:validation:Format="date-time"
 	// +optional
-	ShutdownTime *metav1.Time `json:"shutdownTime,omitempty"`
+	ShutdownTimes *metav1.Time `json:"shutdownTime,omitempty"`
 
 	// shutdownPolicy determines if the Sandbox resource itself should be deleted when it expires.
 	// Underlying resources(Pods, Services) are always deleted on expiry.
